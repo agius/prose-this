@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Options for Prose Blog</title>
+  <link href="bootstrap-2.3.2.min.css" rel="stylesheet">
+  <style type="text/css">
+    .center { text-align: center; }
+    #url-form * { font-size: 24px; line-height: 30px; vertical-align: middle; }
+    #url-form input { height: 34px;  }
+  </style>
+  
+  <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
+  <script type="text/javascript" src="bootstrap-2.3.2.min.js"></script>
+  <script type="text/javascript" src="options.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="span6 offset3">
+        <div class="page-header center">
+          <h1>Blog With Prose Options</h1>
+        </div>
+        <form id="url-form">
+          <label for="new_post_url">New Post Url</label>
+          <input type="text" name="new_post_url" id="new-post-url" placeholder="http://prose.io/#github-name/repo.github.com/new/master/_posts" class="span6" />
+          <div class="form-actions">
+            <button class="btn btn-primary">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

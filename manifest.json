@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "Create a new post in prose with current page",
+  "name": "ProseThis",
+  "permissions": [
+     "tabs", "storage", "http://*/*", "https://*/*"
+  ],
+  "content_scripts" : [{
+    "matches": ["https://*/*", "http://*/*"],
+    "js": ["jquery-2.0.2.min.js", "bookmarklet.js"]
+  }],
+  "options_page": "options.html"
+  
+}
