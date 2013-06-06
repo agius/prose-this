@@ -15,3 +15,7 @@ Click this link to download the .crx file, and Chrome will ask if you want to in
 # Development
 
 Feel free to fork and mess around with it. Pull requests will be implemented.
+
+# Author
+
+[agius](http://www.atevans.com)
